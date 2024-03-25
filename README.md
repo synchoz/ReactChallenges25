@@ -1,1 +1,1 @@
-Some Small Projects im doing in React to the basic + advanced topics more in depth
+Some Small Projects im doing in React to learn some of the basic + advanced topics more in depth in React
