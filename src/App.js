@@ -13,10 +13,10 @@ import CustomTabs from './components/CustomTabs/CustomTabs';
 function App() {
   return (
     <div className="App">
-      <ColorPage />
+     {/*  <ColorPage /> */}
       {/* <StarRatingPage /> */}
       {/* <ImageSlider /> */}
-      {/* <LoadMoreButton /> */}
+      <LoadMoreButton />
       {/* <TreeViewMenu /> */}
       {/* <QRGenerator /> */}
       {/* <ThemeSwitch /> */}
