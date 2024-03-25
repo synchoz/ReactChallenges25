@@ -1,0 +1,61 @@
+.backgroundColorDark {
+    background-color: black;
+}
+
+.backgroundColorWhite {
+    background-color: white;
+}
+
+.mainScreen {
+    width: 100%;
+    height: 100vh;
+} 
+
+.themeWrapper {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.themeWrapperItem {
+    height: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.themeBtn {
+    border-radius: 12px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14pt;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.backgroundColorWhite .themeBtn  {
+    background-color: black;
+    color: white;
+}
+
+
+.backgroundColorDark .themeBtn  {
+    background-color: white;
+    color: black;
+}
+
+.themeTitle {
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+.backgroundColorDark .themeTitle {
+    color: white;
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg'; */
 import './App.css';
+import ColorPage from './components/ColorPage/ColorPage';
+import StarRatingPage from './components/StarRating/StarRatingPage';
+import ImageSlider from './components/ImageSlider/ImageSlider';
+import LoadMoreButton from './components/LoadMoreButton/LoadMoreButton';
+import TreeViewMenu from './components/TreeViewMenu/TreeViewMenu';
+import QRGenerator from './components/QRGenerator/QRGenerator';
+import ThemeSwitch from './components/ThemeSwitch/ThemeSwitch';
+import CustomScrollIndicator from './components/CustomScrollIndicator/CustomScrollIndicator';
+import CustomTabs from './components/CustomTabs/CustomTabs';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ColorPage />
+      {/* <StarRatingPage /> */}
+      {/* <ImageSlider /> */}
+      {/* <LoadMoreButton /> */}
+      {/* <TreeViewMenu /> */}
+      {/* <QRGenerator /> */}
+      {/* <ThemeSwitch /> */}
+      {/* <CustomScrollIndicator /> */}
+      {/* <CustomTabs /> */}
+
+
     </div>
   );
 }

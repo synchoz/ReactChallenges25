@@ -1,0 +1,37 @@
+.scrollableDiv {
+    min-height: 200px;
+    overflow-y: auto;
+}
+
+.mainIndicatorHeader {
+    height: 6em;
+    background-color: green;
+    /* border-bottom: 8px solid #abe40f; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.innerIndicatorText {
+    color: white;
+    font-size: 25pt;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indicatorContainer {
+    width: 100%;
+    background-color: #abe40f;
+}
+
+.progressIndicator {
+    transition: width 0.5s;
+    border-bottom: 8px solid purple;
+}
+
+.content {
+    margin-top: 7em;
+}

@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+
+.fullWinHeight {
+  height: 100vh;
+}

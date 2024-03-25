@@ -1,0 +1,19 @@
+.imageContainer {
+    width: 400px;
+    height: 200px;
+}
+
+.colContainer {
+    border: 1px solid black;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 5px;
+    padding: 5px;
+}
+
+.displayNone { 
+    display: none;
+}

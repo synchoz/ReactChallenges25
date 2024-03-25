@@ -1,0 +1,25 @@
+.yellowStarIcon {
+    background-image: url('star\ yellow.png');
+}
+
+.blackStarIcon {
+    background-image: url('star\ black.png');
+}
+
+.iconGen {
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/* .blackStarIcon:hover {
+    background-image: url('star\ yellow.png');
+}
+ */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
