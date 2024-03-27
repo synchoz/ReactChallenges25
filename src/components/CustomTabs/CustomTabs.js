@@ -2,21 +2,16 @@ import React, {useEffect, useState} from "react";
 import './styles/style.css'
 
 export default function CustomTabs() {
-    const [, forceUpdate] = useState();
-    const triggerReRender = () => {
-        forceUpdate(s => !s); // Toggling state value to force re-render
-    };
+    const [todos, setTodos] = useState([]);
 
     const handleCick = (object, objIndex, event) => {
-            const tempArr = todos;
+            const tempArr = [...todos];
             for (let i = 0; i < tempArr.length; i++) {
                 i == objIndex ? tempArr[i].active = true : tempArr[i].active = false;
             }
-           /*  console.log(tempArr); */
             setTodos(tempArr);
-            triggerReRender();
     }
-    const [todos, setTodos] = useState([]);
+    
     useEffect(() =>{
         fetch('https://dummyjson.com/todos?limit=4')
             .then(res => { return res.json(); })
@@ -26,7 +21,6 @@ export default function CustomTabs() {
                     data.todos[index]['index'] = index;
                     //data.todos[index]['active'] = false;//iterating through the array of objects [{},{},etc...]
                 }
-                /* console.log(data.todos); */
                 setTodos(data.todos);
             });
     }, []);

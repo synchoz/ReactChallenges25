@@ -1,6 +1,6 @@
-.imageContainer {
-    width: 600px;
-    height: 400px;
+.imageSliderContainer {
+    width: 50%;
+    height: 50%;
     background-position: center;
     background-size: contain;
 }

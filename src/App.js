@@ -15,8 +15,8 @@ function App() {
     <div className="App">
      {/*  <ColorPage /> */}
       {/* <StarRatingPage /> */}
-      {/* <ImageSlider /> */}
-      <LoadMoreButton />
+      <ImageSlider />
+      {/* <LoadMoreButton /> */}
       {/* <TreeViewMenu /> */}
       {/* <QRGenerator /> */}
       {/* <ThemeSwitch /> */}
