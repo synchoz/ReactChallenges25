@@ -248,10 +248,6 @@ export default function CustomScrollIndicator() {
     const progressIndicator = useRef(null);
 
     const [scrollPercent, setScrollPercent] = useState(0);
-   /*  const handleScroll = (event) => {
-        console.log(event);
-        console.log(event.target);
-    } */
     
     const handleScroll = (scrollInfo) => {
         console.log(document.body.scrollTop, document.documentElement.scrollTop, document.documentElement.scrollHeight, document.documentElement.clientHeight)

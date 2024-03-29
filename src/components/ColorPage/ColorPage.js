@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import './styles/style.css';
 
 
-
 export default function ColorPage() {
     const [color, setColor] = useState('#000000');
     const [typeOfColor, setTypeOfColor] = useState('hex');
@@ -22,9 +21,9 @@ export default function ColorPage() {
 
     function handleRandomRGBColorGenerate() {
         const r = randomColorUtility(255);
-            const g = randomColorUtility(255);
-            const b = randomColorUtility(255);
-            setColor(`rgb(${r},${g},${b})`);
+        const g = randomColorUtility(255);
+        const b = randomColorUtility(255);
+        setColor(`rgb(${r},${g},${b})`);
     }
     useEffect(() => {
         typeOfColor === 'rgb' ? handleRandomRGBColorGenerate() : handleRandomHEXColorGenerate();

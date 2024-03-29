@@ -9,20 +9,21 @@ import QRGenerator from './components/QRGenerator/QRGenerator';
 import ThemeSwitch from './components/ThemeSwitch/ThemeSwitch';
 import CustomScrollIndicator from './components/CustomScrollIndicator/CustomScrollIndicator';
 import CustomTabs from './components/CustomTabs/CustomTabs';
+import Modal from './components/Modal/Modal';
 
 function App() {
   return (
     <div className="App">
      {/*  <ColorPage /> */}
       {/* <StarRatingPage /> */}
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       {/* <LoadMoreButton /> */}
       {/* <TreeViewMenu /> */}
       {/* <QRGenerator /> */}
       {/* <ThemeSwitch /> */}
       {/* <CustomScrollIndicator /> */}
       {/* <CustomTabs /> */}
-
+      <Modal />
 
     </div>
   );
