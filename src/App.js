@@ -10,6 +10,7 @@ import ThemeSwitch from './components/ThemeSwitch/ThemeSwitch';
 import CustomScrollIndicator from './components/CustomScrollIndicator/CustomScrollIndicator';
 import CustomTabs from './components/CustomTabs/CustomTabs';
 import Modal from './components/Modal/Modal';
+import GitHubProfileSearch from './components/GithubProfileSearch/GitHubProfileSearch';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <ThemeSwitch /> */}
       {/* <CustomScrollIndicator /> */}
       {/* <CustomTabs /> */}
-      <Modal />
+      {/* <Modal /> */}
+      <GitHubProfileSearch />
 
     </div>
   );

@@ -1,0 +1,15 @@
+.githubProfileContainer {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.imageHolder {
+    border-radius: 50%;
+}
+
