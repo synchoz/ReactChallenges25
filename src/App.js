@@ -11,6 +11,8 @@ import CustomScrollIndicator from './components/CustomScrollIndicator/CustomScro
 import CustomTabs from './components/CustomTabs/CustomTabs';
 import Modal from './components/Modal/Modal';
 import GitHubProfileSearch from './components/GithubProfileSearch/GitHubProfileSearch';
+import AutoCompleteSearch from './components/AutoCompleteSearch/AutoCompleteSeartch';
+import TicTacToe from './components/TicTacToe/TicTacToe';
 
 function App() {
   return (
@@ -25,8 +27,9 @@ function App() {
       {/* <CustomScrollIndicator /> */}
       {/* <CustomTabs /> */}
       {/* <Modal /> */}
-      <GitHubProfileSearch />
-
+      {/* <GitHubProfileSearch /> */}
+      {/* <AutoCompleteSearch /> */}
+      <TicTacToe />
     </div>
   );
 }

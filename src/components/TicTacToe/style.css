@@ -1,0 +1,31 @@
+.boardContainer {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boardRow {
+    display: flex;
+}
+
+.boardItem {
+    height: 80px;
+    width: 80px;
+    padding: 1px;
+    background-color: gray;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boardItem:hover {
+    background-color: lightgrey;
+}
+
+.gameMsg {
+    font-weight: bold;
+    font-size: 20pt;
+}
